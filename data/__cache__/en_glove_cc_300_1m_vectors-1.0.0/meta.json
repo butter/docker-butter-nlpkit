@@ -1,0 +1,31 @@
+{
+  "archive": [
+    "archive.gz",
+    "8105f1f56f14cb0bde61e6539e7ad87d",
+    "https://index.spacy.io/models/en_glove_cc_300_1m_vectors-1.0.0/archive.gz"
+  ],
+  "etag": "390182610e60ada31bd1d78408b86ada",
+  "manifest": [
+    {
+      "checksum": [
+        "md5",
+        "2acdcf3bb65b635bee310aa6587d040c"
+      ],
+      "noffset": 742480505,
+      "path": [
+        "vocab",
+        "vec.bin"
+      ],
+      "size": 811385805
+    }
+  ],
+  "package": {
+    "compatibility": {
+      "spacy": null
+    },
+    "description": "english glove vectors (common crawl), 300 dimensions, 1M vocabulary",
+    "license": "public domain",
+    "name": "en_glove_cc_300_1m_vectors",
+    "version": "1.0.0"
+  }
+}
