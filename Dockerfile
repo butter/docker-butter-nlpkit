@@ -8,7 +8,7 @@ MAINTAINER Adam Walz <adam@butter.ai>
 COPY data /usr/local/lib/python2.7/site-packages/spacy/data
 
 ENV \
-  SPACY_VERSION=1.4.0 \
+  SPACY_VERSION=1.5.0 \
   NUMPY_VERSION=1.11.3
 
 # Install spacy and download language models early in the build process
