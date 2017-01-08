@@ -16,7 +16,14 @@ ENV \
 # large and we don't want to be downloading them on every container restart
 RUN apt-get update && apt-get install -y \
     bc \
+    libatlas-dev \
+    libatlas3gf-base \
+    gfortran \
  && rm -rf /var/lib/apt/lists/* \
+ && update-alternatives --set libblas.so.3 \
+      /usr/lib/atlas-base/atlas/libblas.so.3 \
+ && update-alternatives --set liblapack.so.3 \
+      /usr/lib/atlas-base/atlas/liblapack.so.3 \
  && pip install \
       numpy==${NUMPY_VERSION} \
       spacy==${SPACY_VERSION} \
