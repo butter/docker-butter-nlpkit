@@ -1,0 +1,9 @@
+.git
+.gitignore
+.gitattributes
+
+Dockerfile
+.dockerignore
+
+README
+data/__cache__/
