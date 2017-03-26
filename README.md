@@ -3,8 +3,10 @@ Butter.ai NLP Toolkit
 
 ## Supported tags and respective `Dockerfile` links
 
--	[`2017-01`, `py2` (*2017-01/Dockerfile*)](https://github.com/butter/docker-butter-nlpkit/blob/5eb7fae3b14a45e6ffcff4a683dd9d1790943459/py2/2017-01/Dockerfile)
--	[`py3-2017-01`, `py3`, `latest` (*py3-2017-01/Dockerfile*)](https://github.com/butter/docker-butter-nlpkit/blob/5eb7fae3b14a45e6ffcff4a683dd9d1790943459/py3/2017-01/Dockerfile)
+-	[`2017-03`, `py2` (*2017-01/Dockerfile*)](https://github.com/butter/docker-butter-nlpkit/blob/b1e5ad481f7d5e99f33fc9d0ad06bfe05a115f19/py2/2017-01/Dockerfile)
+-	[`2017-01`, (*2017-01/Dockerfile*)](https://github.com/butter/docker-butter-nlpkit/blob/5eb7fae3b14a45e6ffcff4a683dd9d1790943459/py2/2017-01/Dockerfile)
+-	[`py3-2017-03`, `py3`, `latest` (*py3-2017-01/Dockerfile*)](https://github.com/butter/docker-butter-nlpkit/blob/b1e5ad481f7d5e99f33fc9d0ad06bfe05a115f19/py3/2017-01/Dockerfile)
+-	[`py3-2017-01` (*py3-2017-01/Dockerfile*)](https://github.com/butter/docker-butter-nlpkit/blob/5eb7fae3b14a45e6ffcff4a683dd9d1790943459/py3/2017-01/Dockerfile)
 
 ## What is Butter nlpkit
 
@@ -15,14 +17,14 @@ nlpkit is a set of tools and packages used for machine learning and natural lang
 ### Create a `Dockerfile` in your Python app project
 
 ```dockerfile
-FROM butter/butter-nlpkit:py3-2017-01
+FROM butter/butter-nlpkit:py3-2017-03
 CMD [ "python", "./your-daemon-or-script.py" ]
 ```
 
 or (if you need to use Python 2):
 
 ```dockerfile
-FROM butter/butter-nlpkit:2017-01
+FROM butter/butter-nlpkit:2017-03
 CMD [ "python", "./your-daemon-or-script.py" ]
 ```
 
