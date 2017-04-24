@@ -3,8 +3,8 @@ Butter.ai NLP Toolkit
 
 ## Supported tags and respective `Dockerfile` links
 
--	[`2017-04`, `py2` (*2017-014/Dockerfile*)](https://github.com/butter/docker-butter-nlpkit/blob/22e06981b57b9eb42d2b01f68c3ff48bd7dcf924/py2/2017-04/Dockerfile)
--	[`2017-03` (*2017-013/Dockerfile*)](https://github.com/butter/docker-butter-nlpkit/blob/b1e5ad481f7d5e99f33fc9d0ad06bfe05a115f19/py2/2017-03/Dockerfile)
+-	[`2017-04`, `py2` (*2017-04/Dockerfile*)](https://github.com/butter/docker-butter-nlpkit/blob/22e06981b57b9eb42d2b01f68c3ff48bd7dcf924/py2/2017-04/Dockerfile)
+-	[`2017-03` (*2017-03/Dockerfile*)](https://github.com/butter/docker-butter-nlpkit/blob/b1e5ad481f7d5e99f33fc9d0ad06bfe05a115f19/py2/2017-03/Dockerfile)
 -	[`2017-01` (*2017-01/Dockerfile*)](https://github.com/butter/docker-butter-nlpkit/blob/5eb7fae3b14a45e6ffcff4a683dd9d1790943459/py2/2017-01/Dockerfile)
 -	[`py3-2017-04`, `py3`, `latest` (*py3-2017-04/Dockerfile*)](https://github.com/butter/docker-butter-nlpkit/blob/22e06981b57b9eb42d2b01f68c3ff48bd7dcf924/py3/2017-04/Dockerfile)
 -	[`py3-2017-03` (*py3-2017-03/Dockerfile*)](https://github.com/butter/docker-butter-nlpkit/blob/b1e5ad481f7d5e99f33fc9d0ad06bfe05a115f19/py3/2017-03/Dockerfile)
