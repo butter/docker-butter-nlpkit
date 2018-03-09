@@ -2,7 +2,7 @@ Butter.ai NLP Toolkit
 =====================
 
 ## Supported tags and respective `Dockerfile` links
-74f20f5cdd678d0a32b967bd07c5c3db0de3987c
+
 -	[`2018-03`, `py2` (*py2/Dockerfile*)](https://github.com/butter/docker-butter-nlpkit/blob/74f20f5cdd678d0a32b967bd07c5c3db0de3987c/py2/Dockerfile)
 -	[`2017-05` (*py2/2017/04/Dockerfile*)](https://github.com/butter/docker-butter-nlpkit/blob/16cfc18bff5f73f2b09ef527955aedd6ab0153d2/py2/2017-05/Dockerfile)
 -	[`2017-04` (*py2/2017/04/Dockerfile*)](https://github.com/butter/docker-butter-nlpkit/blob/22e06981b57b9eb42d2b01f68c3ff48bd7dcf924/py2/2017-04/Dockerfile)
